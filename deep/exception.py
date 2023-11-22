@@ -44,17 +44,17 @@ except FileNotFoundError:
 
 
 # 오류 발생 raise
-class Bird:
-    def fly(self):
-        raise NotImplementedError
+# class Bird:
+#     def fly(self):
+#         raise NotImplementedError
 
-class Eagle(Bird):
-    pass
+# class Eagle(Bird):
+#     pass
 
-eagle = Eagle()
-eagle.fly()
+# eagle = Eagle()
+# eagle.fly()
 
-# 커스텀 예외 만들기
-class MyError(Exception):
-    def __str__(self):
-        return "허용되지 않는 별명입니다."
+# # 커스텀 예외 만들기
+# class MyError(Exception):
+#     def __str__(self):
+#         return "허용되지 않는 별명입니다."
